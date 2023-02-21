@@ -37,7 +37,7 @@ const InputTodo = ({ addTodoItem }) => {
   );
 };
 
-InputTodo.propTypes = {
-  addTodoItem: PropTypes.func,
-};
+// InputTodo.propTypes = {
+//   addTodoItem: PropTypes.func,
+// };
 export default InputTodo;

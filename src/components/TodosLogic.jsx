@@ -43,7 +43,7 @@ const TodosLogic = () => {
   const addTodoItem = (title) => {
     const newTodo = {
       id: uuidv4(),
-      title: title,
+      title,
       completed: false,
     };
     setTodos([...todos, newTodo]);

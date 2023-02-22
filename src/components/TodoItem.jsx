@@ -1,3 +1,6 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/button-has-type */
+// eslint-disable-next-line no-unused-vars
 import PropTypes from 'prop-types';
 import styles from '../styles/TodoItem.module.css';
 

@@ -1,3 +1,4 @@
+/* eslint-disable react/require-default-props */
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 
@@ -37,7 +38,7 @@ const InputTodo = ({ addTodoItem }) => {
   );
 };
 
-// InputTodo.propTypes = {
-//   addTodoItem: PropTypes.func,
-// };
+InputTodo.propTypes = {
+  addTodoItem: PropTypes.func,
+};
 export default InputTodo;

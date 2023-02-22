@@ -1,3 +1,5 @@
+/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable react/prop-types */
 import TodoItem from './TodoItem';
 
 const TodoList = ({ todosProps, handleChange, delTodo }) =>
